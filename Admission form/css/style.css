@@ -107,5 +107,114 @@ form .button input:hover{
      
      
 }
+              /* Intermediate profile section*/
+body{
+  background-color: rgb(0, 98, 102);
+  margin: 0;
+  padding: o;
+}
+
+.main{
+  width:50%;
+  background-color: rgb(18, 203, 196);
+  margin: 20px auto 0;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.main h1{
+  background-color: rgb(18, 137, 167);
+  padding: 10px;
+}
+.student-detail{
+  flex-wrap:wrap;
+  margin: 10px;
+  justify-content:center ;
+}
+.input-box{
+  display: inline-block;
+  padding-top: 10px;
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  padding-left: 20px;
+  font-size:1.2rem;
+   justify-content: space-between;
+}
+.input-radio{
+  display: flex;
+  margin-left:20px;
+  font-size: 1.2rem;
+}
+.input-radio .radio{
+  display: inline-block;
+  padding-left: 30%;
+  padding-right: 10px;
+}
+
+.input-box select,option{
+  width: 50%;
+  border-radius:10px;
+  border: 1px solid blueviolet;
+  margin-right: 30px;
+  text-align: center;
+  height: 40px;
+  font-size: 15px;
+ 
+}
+.input-box label{
+    width: 39%;
+    display:flex;
+    padding-top:10px ;
+
+}
+.input-box input{
+    width: 50%;
+    padding-top:10px;
+    padding-bottom: 10px;
+    height: 20px;
+    border: 1px solid rgb(154, 135, 173);
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 30px;
+    padding-right:0px;
+    font-size:15px;
+}
+.btn{
+  
+  text-align:center;
+  padding-bottom: 10px;
+}
+.btn .button{
+   background-color:rgb(18, 137, 167);
+   padding: 0px;
+   border-radius: 20px;
+   width: 50%;
+}
+.btn .back{
+  background-color:rgb(18, 137, 167);
+  padding: 12px;
+  border-radius: 20px;
+}
+@media screen and (max-width:680px){
+     .main{
+      width: 100%;
+      background-color:rgb(18, 203, 196) ;
+      margin-top:0;
+      padding-top:1px;
+      margin-bottom: 0px;
+      margin-right: 0px;
+      padding-right: 10px;
+      
+     }
+     body{
+      overflow-x: hidden;
+     }
+     .main h1{
+      padding-top: 10px;
+      padding-left: 30px;
+     }
+}
+  
 
     
